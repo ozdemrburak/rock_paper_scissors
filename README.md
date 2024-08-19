@@ -40,7 +40,7 @@ By declaring it global, we maintain stability in tracking the number of games pl
 * Checks the score to determine if the game has finished. If so, it calls the **get_game_preference** function to allow players to decide if they want to play again.
 # play_extended_game() function
 ![play](screenshots/play_extended.png)
-*The only difference from the **play_classic_game()** function is shown in the screenshot above.
+* The only difference from the **play_classic_game()** function is shown in the screenshot above.
 Added new moves for the Spock-Lizard version
 # tas_kagit_makas_BURAK_OZDEMIR() function
 ![son](screenshots/son.png)
