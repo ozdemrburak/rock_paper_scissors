@@ -32,6 +32,7 @@ By declaring it global, we maintain stability in tracking the number of games pl
 * Defined a **moves** list to randomly determine the computer's move.
 * Defined a **possibilities** list to cover all scenarios. By using this list, there’s no need to use multiple if-else statements to determine the round winner.
 * Defined a **score_chart** list to quickly determine the outcome of each round based on the moves made by both the player and the computer.
+  
 ![play_game1](screenshots/play_classic_1.png)
 * Defined a **made_moves** list to store the player’s and computer’s moves for comparison within the for loop.
 * Used a for loop to search **possibilities** list for the round winner and **'enumerate'** method to determine index **i** needed in **score_chart** list.
